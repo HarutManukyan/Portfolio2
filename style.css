@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+body{
+    background-color: #002C29;  
+}
+
+.main-content{
+    margin-left: 10%;
+}
+.main-content__title{
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: 15%;
+}
+.main-content__subtitle{
+    font-size: 40px;
+    font-weight: 700;
+}
+.main-content__personal-info{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.personal-info-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.personal-info__texts{
+    margin-left: 1%;
+    font-size: 22px;
+}
+.personal-info__insta{
+    font-size: 16px;
+}
+
+.main-content__element-container{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+.bottom-content__element-container{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: -1;
+}
+
+.main-info{
+    background-color: whitesmoke;
+    width: 45%;
+    padding: 70px 50px;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    transform: translate(-30%, -50%);
+    box-shadow: 10px 10px 100px black;
+    margin-bottom: 50px;
+}
+
+
+.main-info__about-me{
+    color: #002C29;
+    border-bottom: #002C29 solid 1px;
+    padding-bottom: 20px;
+}
+.main-info__about-me-titles{
+    display: flex;
+    justify-content: space-between;
+}
+.main-info__about-me-title{
+    color: #002C29;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.education {
+    color: #002C29;
+    margin-left: 10px;
+    width: 200px;
+}
+.skill{
+    color: #002C29;
+    margin-left: 10px;
+    width: 70%;
+}
+.skill-container{
+    display: flex;
+}
+.translation{
+    color: #002C29;
+}
+
+.main-info__education-and-contacts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    border-bottom: #002C29 solid 1px;
+    padding-bottom: 20px;
+}
+.main-info__education{
+    color: #002C29;
+    border-right: #002C29 solid 1px;
+    padding-right: 10%;
+}
+.year{
+    color: #002C29;
+    font-weight: 900;
+}
+.main-info__contacts, .main-info__skills{
+    color: #002C29;
+}
+
+.main-info__skills{
+    margin-top: 50px;
+}
+.main-info__skills-title{
+    color: #002C29;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.main-info__contacts{
+    margin-left: 25px;
+}
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .switch > span {
+    position: absolute;
+    top: 14px;
+    pointer-events: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+    width: 50%;
+    text-align: center;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .off {
+    color: #002C29;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .on {
+    color: whitesmoke;
+  }
+  
+  .switch > span.on {
+    left: 0;
+    padding-left: 2px;
+    color: #002C29;
+  }
+  
+  .switch > span.off {
+    right: 0;
+    padding-right: 4px;
+    color: #fff;
+  }
+  
+  .check-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+  }
+  .check-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  input.check-toggle-round-flat + label {
+    padding: 2px;
+    width: 97px;
+    height: 35px;
+    background-color: #002C29;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+  }
+  input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
+    display: block;
+    position: absolute;
+    content: "";
+  }
+  
+  input.check-toggle-round-flat + label:before {
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #002C29;
+    -webkit-moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+  }
+  input.check-toggle-round-flat + label:after {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 48px;
+    background-color: #fff;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -ms-border-radius: 52px;
+    -o-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: margin 0.2s;
+    -moz-transition: margin 0.2s;
+    -o-transition: margin 0.2s;
+    transition: margin 0.2s;
+  }
+  
+  input.check-toggle-round-flat:checked + label {
+  }
+  
+  input.check-toggle-round-flat:checked + label:after {
+    margin-left: 44px;
+  }

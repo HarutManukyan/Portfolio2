@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1300px) {
+    .main-info{
+        position: absolute;
+        left: 50%;
+        top: 140%;
+        transform: translate(-30%, -50%);
+        box-shadow: 10px 10px 100px black;
+        margin-bottom: 50px;
+    }
+    .main-info__education-and-contacts{
+        display: block;
+        margin-top: 25px;
+        border-bottom: #002C29 solid 1px;
+        padding-bottom: 20px;
+    }
+    .main-info__contacts{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .skill{
+        width: 100%;
+    }
+    .main-info__education{
+        border-right: none;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .main-info{
+        width: 70%;
+        top: 170%;
+    }
+    .main-content__element-container{
+        position: absolute;
+        right: 0;
+        width: 200px;
+        height: 550px;
+    }
+    .main-content{
+        margin-left: 5%;
+    }
+    .main-content__title{
+        margin-top: 5%;
+    }
+    .main-content__personal-info{
+        display: block;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .main-info{
+        width: 70%;
+        top: 180%;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .main-info{
+        width: 100%;
+        top: 220%;
+    }
+    .main-content__element-container{
+        position: absolute;
+        right: 0;
+        bottom: -150px;
+    }
+  }
